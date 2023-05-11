@@ -19,7 +19,16 @@
 
 x=[1,2]
 z=x*2
-print(z)
+print(f"baraye tekrar adad list:(x*2)={z}")
 print(type(z))
+# sazande list(2 parantez),list((1,4,9,10,23))
+print(f'lotfan list besaz:1,4,9,10,23={list((1,4,9,10,23))}')
+a=[1,4,9,10,23]
+a.append('90')
+a.remove('1','4')
+print(a)
 
+print("lotfan adad 90 be list mazid shavad va 1,4 hazf shavad=",a)
+print("liste item4,9 joda besaz=" ,a[1:3])
+print("liste item10,23 joda besaz=", a[3:])
 

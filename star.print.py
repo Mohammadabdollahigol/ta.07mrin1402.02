@@ -7,7 +7,7 @@
 #     print(anystart)
 start=range(1,12,2)
 for an in start:
-end=range(1,12,2)
+end=range(5,7,2)
 for anyitem in end: 
 print(an*"*")
 print(enyitem*"y")

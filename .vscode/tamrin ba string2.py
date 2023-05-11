@@ -1,7 +1,7 @@
 s='aaabbbccc'
 s=s[:0]+'xxx'+s[3:]
-print(s)
+print(f"s[:0]+'xxx'+s[3:]={s}") 
 f=s.upper()
-print(f)
+print(f"tabdil be horoof bozorg={f}")
 g=f.lower()
-print(g)
+print(f"tabdil be horoof koochak={g}")
